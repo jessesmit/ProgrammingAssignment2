@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following functions can be used together in order to calculate inverses of 
+# matrices in such a way that the inverse will only be calculated once for a given
+# matrix and subsquent attempts will simply return a cached value. 
+#
+# Usage:
+#
+# m <- makeCacheMatrix(matrix(1:4,2,2))
+# cacheSolve(m)
 
 ## This function generates a list of functions which enable the getting and setting
 # of both a matrix and the inverse of this matrix. The matrix and its inverse are
